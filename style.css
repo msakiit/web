@@ -462,14 +462,14 @@
     }
     50% {
       background: #000;
-      top: 26px;
+      top: 0px;
     }
     100% {
       background: #fff;
       width: 100%;
-      height: 64px;
+      height: 0px;
       border-radius: 0px;
-      top: 26px;
+      top: 0px;
     }
   }
   
@@ -490,4 +490,11 @@
       opacity: 0;
     }
   } 
+
+  .registerBtn:hover{
+    color: #8BC34A;
+  }
+  .discordBtn:hover{
+    color: #50E6FF;
+  }
   
